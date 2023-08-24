@@ -128,25 +128,14 @@ button:hover {
     color: white;
 }
 
-/* ===== Sponsor ====== 
-
-.sponsors {
-    display: grid; 
-    grid-template-columns:20% 0.5fr 20% ; 
-    grid-auto-rows: minmax(100px,auto);
-    text-align: center;
-    gap:10px 10px;
-    justify-items: stretch;
-    background-color: brown; 
-
-}*/
+/* ===== Sponsor ====== */
 .sponsors {
     display: grid; 
     grid-template-columns:repeat(5,1fr); 
     grid-auto-rows: 1fr;
     text-align: center;
     gap:10px 10px;
-    background-color: brown;
+    background-color: white;
     padding: 10px;
     border: solid 1px black;
 }
